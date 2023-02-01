@@ -59,5 +59,5 @@ python3 ./src/main.py --function synth_bench --outfile ./playground/synth_20000_
 You can ignore this part if you are a student on CE357.
 
 1. Randomly generate a single root, incomplete binary tree. (TODO: multiple roots)
-2. Convert the tree to an And-Inverter-Graph, whose primary output is the root node, primary inputs are the leaves, internal nodes as well as the root are AND gates. Insert inverters to edges at random.
+2. Convert the tree to an And-Inverter-Graph, whose primary output is the root node, primary inputs are the leaves, AND gates are internal nodes as well as the root node. Inverters are attached to edges of the tree at random.
 3. Use yosys for technology mapping. If you prefer larger cells/modules, modify /bench/lib/youl.lib to your own library. You may also need to modify verilog.py.
