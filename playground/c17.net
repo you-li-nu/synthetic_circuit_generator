@@ -1,0 +1,24 @@
+#========num_cells num_nets
+11 9
+#========nets
+0 5
+1 7
+2 5 6
+3 6
+4 8
+5 9
+6 7 8
+7 9 10
+8 10
+#========symbols
+# 0 input G1gat
+# 1 input G2gat
+# 2 input G3gat
+# 3 input G6gat
+# 4 input G7gat
+# 5 gate G10gat
+# 6 gate G11gat
+# 7 gate G16gat
+# 8 gate G19gat
+# 9 output G22gat
+# 10 output G23gat
