@@ -3,13 +3,11 @@ import sys
 import re
 import logging
 
-from pysmt.shortcuts import simplify, And
 from ckt import Gate, Ckt
 from bench import bench_writer
 
 '''
 convert (a subset of) structural verilog to .bench format.
-see /bench/gcd_fast.v for an example.
 '''
 # reference: https://github.com/gatelabdavis/RANE
 def verilog_parser(filename : str) -> Ckt:
