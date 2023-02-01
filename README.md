@@ -1,61 +1,58 @@
-# SAT-based Attack
+# Synthetic Netlist Generator
 
-## Combinational
-### Original SAT attack:
+Generates random netlists to test placement & routing algorithms.
+
+### Netlist format
+Example circuit:
 ```
-python3 ./src/main.py --tactic original --encrypted ./bench/comb/c432_enc05.bench --oracle ./bench/comb/c432.bench
+                .---.
+            .-->| 1 |--.
+            |   '---'  |
+    .---.   |          |
+.-->| 0 |---|          |
+|   '---'   |          |
+|           |          '-->.---.
+|           |              | 2 |--.
+|           '------------->'---'  |
+|                                 |
+'---------------------------------'
+```
+Corresponding Netlist:
+
+```
+#========num_cells num_nets
+3 3
+#========nets
+0 1 2
+1 2
+2 0
+#========symbols
+# 0 gate n0
+# 1 gate n1
+# 2 gate n2
 ```
 
-### Generalized SAT attack:
+### Dependency
+Ubuntu or other Linux distributions.
 ```
-python3 ./src/main.py --tactic generalization --encrypted ./bench/comb/c432_enc05.bench --oracle ./bench/comb/c432.bench
-```
-
-## Sequential
-
-### Generalized Sequential SAT attack:
-```
-python3 ./src/main.py --tactic seq --encrypted ./bench/seq/s27_2.bench --oracle ./bench/seq/s27.bench
-```
-
-# verilog2bench
-
-## RTL verilog to structural verilog
-(through logic synthesis and technology mapping)
-
-### Dependencies
-```
+sudo apt-get install python-argparse
 sudo apt install berkeley-abc
 sudo apt install yosys
 ```
-### Runbook
+### Generate a netlist from a .bench file
 ```
-yosys
-read_verilog ./gcd_fast_m.v
-synth -top gcd_fast_m
-dfflibmap -liberty ./youl.lib
-abc -liberty ./youl.lib
-write_verilog -noattr ./gcd_fast.v
+python3 ./src/main.py --function bench2nets --infile ./bench/iscas85/c17.bench --outfile ./playground/c17.net
 ```
 
-## structural verilog to .bench format
-Creates a .bench file with the same filename under the same repository.
+### Generate a synthetic netlist
+A larger ```gate_limit``` will result in a larger circuit. The ```input_limit``` should not be too small: an adequate choice would be ```input_limit ~= sqrt(gate_limit)```.
 ```
-python3 ./src/verilog.py ./bench/gcd_fast.v
+python3 ./src/main.py --function synth_nets --outfile ./playground/synth_20000_500.net --gate_limit 20000 --input_limit 500
 ```
 
-# Sequential Equivalence Checking
+### Methodology
+You can ignore this part if you are a student on CE357.
 
-### Create Kairos wrapper for external model checker
-
-```
-python3 ../../src/kairos.py --symmetric ./inverse_fast.v ./inverse_slow.v ./inverse_kairos.bench
-```
-### Use ABC for model checking
-
-```
-read_bench ./inverse_kairos.bench
-strash
-write_aiger -s ./inverse_kairos.aig
-pdr
-```
+1. Randomly generate a single root, incomplete binary tree. (TODO: multiple roots)
+2. Convert the tree to an And-Inverter-Graph, whose primary output is the root node, primary inputs are the leaves, internal nodes as well as the root are AND gates. Insert inverters to edges at random.
+3. Use yosys for technology mapping. If you prefer larger cells/modules, modify /bench/lib/youl.lib to your own library.
