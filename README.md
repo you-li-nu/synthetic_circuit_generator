@@ -50,6 +50,11 @@ A larger ```gate_limit``` will result in a larger circuit. The ```input_limit```
 python3 ./src/main.py --function synth_nets --outfile ./playground/synth_20000_500.net --gate_limit 20000 --input_limit 500
 ```
 
+### Generate a synthetic .bench file
+```
+python3 ./src/main.py --function synth_bench --outfile ./playground/synth_20000_500.bench --gate_limit 20000 --input_limit 500
+```
+
 ### Methodology
 You can ignore this part if you are a student on CE357.
 
