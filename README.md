@@ -35,7 +35,7 @@ Corresponding Netlist:
 ### Dependency
 Ubuntu or other Linux distributions.
 ```
-sudo apt-get install python-argparse
+sudo apt install python-argparse
 sudo apt install berkeley-abc
 sudo apt install yosys
 ```

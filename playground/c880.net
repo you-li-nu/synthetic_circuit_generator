@@ -1,0 +1,864 @@
+#========num_cells num_nets
+443 417
+#========nets
+0 60 61 63 64 65 196
+1 60 64 65 87
+2 60 61 65
+3 60 61 64 90 93 94 173 176
+4 61 63
+5 62 67 69 70 71 72
+6 62 71 72 75 76
+7 62 66 70 72 74 76 93 94
+8 63 64 89
+9 65 172 174
+10 66 68 73 74 75 76 92 175
+11 66 67 68
+12 66
+13 145
+14 68
+15 69 70 73 74
+16 69 71 73 75
+17 77
+18 77
+19 78
+20 78
+21 126
+22 127
+23 79 80 103 207
+24 79 80 104 209
+25 81 82 105 211
+26 81 82 106 213
+27 83 84 107 216
+28 83 84 109 218
+29 85 86 111 220
+30 85 86 222
+31 203 204 223 224
+32 205 206
+33 87 89 90 91
+34 188 215
+35 190 217
+36 192 219
+37 91
+38 194 221
+39 92 175
+40 95 96 227 263 264
+41 95 96 228 266 267
+42 97 98 229 269 270
+43 97 98 230 272 273
+44 99 100 231 275 276
+45 99 100 232 278 279
+46 101 102 233 281 282
+47 101 102 234 284 285
+48 225 226
+49 103 104 105 106 107 109 111 162
+50 368 377 378 379 398 413 414 415
+51 317 320 323 326 329 332 335 340
+52 318 321 324 327 330 333 336 341
+53 265 268 271 274 277 280 283 286
+54 108 110 112
+55 108
+56 110
+57 313 314 315 338 339
+58 112
+59 88
+60 113
+61 115 142
+62 114 115
+63 116 117
+64 118
+65 119 120 121
+66 119
+67 120
+68 121
+69 173 174
+70 138
+71 139
+72 140
+73 122
+74 123
+75 124
+76 125
+77 141
+78 126 127
+79 128
+80 128
+81 129
+82 129
+83 130
+84 130
+85 131
+86 131
+87 237
+88 132 189 191 193 195
+89 238
+90 239
+91 240
+92 172 176
+93 133
+94 133
+95 134
+96 134
+97 135
+98 135
+99 136
+100 136
+101 137
+102 137
+103 422
+104 423
+105 407
+106 388
+107 389
+108 306
+109 390
+110 309
+111 374
+112 312
+113 163
+114 142
+115 164
+116 143
+117 144
+118 155
+119 145
+120 146
+121 147
+122 165
+123 155
+124 166
+125 167
+126 148
+127 168
+128 149 151
+129 150 151
+130 152 154
+131 153 154
+132 162 197 198 199 200
+133 175
+134 156 158
+135 157 158
+136 159 161
+137 160 161
+142 179
+143 172 173 174 175 176
+144 180
+145 169
+146 181
+147 182
+148 183
+149 170
+150 170
+151 185
+152 171
+153 171
+154 186
+155 187
+156 177
+157 177
+158 201
+159 178
+160 178
+161 202
+162 421
+169 184
+170 185
+171 186
+172 188 190 192 194
+173 189 191 193 195
+174 197 198 199 200
+175 187
+176 196
+177 201
+178 202
+184 227 228 229 230 231 232 233 234
+185 203 204
+186 205 206
+187 207 209 211 213 216 218 220 222
+188 208
+189 208
+190 210
+191 210
+192 212
+193 212
+194 214
+195 214
+196 215 217 219 221
+197 254
+198 255
+199 256
+200 257
+201 223 224
+202 225 226
+203 235
+204 235
+205 236
+206 236
+207 237
+208 250
+209 238
+210 251
+211 239
+212 252
+213 240
+214 253
+215 241
+216 241
+217 242
+218 242
+219 243
+220 243
+221 244
+222 244
+223 245
+224 245
+225 246
+226 246
+227 291
+228 294
+229 297
+230 300
+231 303
+232 400
+233 401
+234 380
+235 247 249
+236 248 249
+237 250
+238 251
+239 252
+240 253
+241 254
+242 255
+243 256
+244 257
+245 258 260
+246 259 260
+247 261
+248 261
+249 287
+250 263 264 265
+251 266 267 268
+252 269 270 271
+253 272 273 274
+254 275 276 277
+255 278 279 280
+256 281 282 283
+257 284 285 286
+258 262
+259 262
+260 288
+261 287
+262 288
+263 289 290
+264 290 403
+265 291
+266 292 293
+267 293 346 347 383
+268 294
+269 295 296
+270 296 345 347 382 383
+271 297
+272 298 299
+273 299 381 382 383
+274 300
+275 301 302
+276 302 369
+277 303
+278 304 305
+279 305 315 343 344
+280 306
+281 307 308
+282 308 314 315 342 344
+283 309
+284 310 311
+285 311 313 314 315
+286 312
+287 348
+288 349
+289 316 318
+290 317 392 393
+291 429
+292 319 321
+293 320 394 395
+294 430
+295 322 324 346
+296 323 396 397
+297 431
+298 325 327 345 347
+299 326 375 376
+300 416
+301 328 330
+302 329 362 363
+303 399
+304 331 333
+305 332 364 365
+306 400
+307 334 336 343
+308 335 366 367
+309 401
+310 337 341 342 344
+311 338 339 340
+312 380
+313 358
+314 356
+315 354
+316 411
+317 350
+318 350
+319 384
+320 351
+321 351
+322 385
+323 352
+324 352
+325 386
+326 353
+327 353
+328 370
+329 355
+330 355
+331 354
+332 357
+333 357
+334 356
+335 359
+336 359
+337 358
+338 360
+339 360
+340 361
+341 361
+342 356
+343 354
+344 354
+345 385
+346 384
+347 384
+350 429
+351 430
+352 431
+353 416
+354 362 363 369
+355 399
+356 364 365
+357 400
+358 366 367
+359 401
+360 368
+361 380
+362 371
+363 371
+364 372
+365 372
+366 373
+367 373
+368 374
+369 370
+370 375 376 381 382 383
+371 377
+372 378
+373 379
+374 380
+375 387
+376 387
+377 388
+378 389
+379 390
+380 391
+381 386
+382 385
+383 384
+384 392 393 403
+385 394 395
+386 396 397
+387 398
+388 399
+389 400
+390 401
+391 402
+392 404
+393 404
+394 405
+395 405
+396 406
+397 406
+398 407
+399 408
+400 409
+401 410
+402 412
+403 411
+404 413
+405 414
+406 415
+407 416
+408 417
+409 418
+410 419
+411 420
+413 421
+414 422
+415 423
+416 424
+417 425
+418 426
+419 427
+420 428
+421 429
+422 430
+423 431
+424 432
+429 433
+430 434
+431 435
+432 436
+433 437
+434 438
+435 439
+437 440
+438 441
+439 442
+#========symbols
+# 0 input G1gat
+# 1 input G8gat
+# 2 input G13gat
+# 3 input G17gat
+# 4 input G26gat
+# 5 input G29gat
+# 6 input G36gat
+# 7 input G42gat
+# 8 input G51gat
+# 9 input G55gat
+# 10 input G59gat
+# 11 input G68gat
+# 12 input G72gat
+# 13 input G73gat
+# 14 input G74gat
+# 15 input G75gat
+# 16 input G80gat
+# 17 input G85gat
+# 18 input G86gat
+# 19 input G87gat
+# 20 input G88gat
+# 21 input G89gat
+# 22 input G90gat
+# 23 input G91gat
+# 24 input G96gat
+# 25 input G101gat
+# 26 input G106gat
+# 27 input G111gat
+# 28 input G116gat
+# 29 input G121gat
+# 30 input G126gat
+# 31 input G130gat
+# 32 input G135gat
+# 33 input G138gat
+# 34 input G143gat
+# 35 input G146gat
+# 36 input G149gat
+# 37 input G152gat
+# 38 input G153gat
+# 39 input G156gat
+# 40 input G159gat
+# 41 input G165gat
+# 42 input G171gat
+# 43 input G177gat
+# 44 input G183gat
+# 45 input G189gat
+# 46 input G195gat
+# 47 input G201gat
+# 48 input G207gat
+# 49 input G210gat
+# 50 input G219gat
+# 51 input G228gat
+# 52 input G237gat
+# 53 input G246gat
+# 54 input G255gat
+# 55 input G259gat
+# 56 input G260gat
+# 57 input G261gat
+# 58 input G267gat
+# 59 input G268gat
+# 60 gate G269gat
+# 61 gate G270gat
+# 62 gate G273gat
+# 63 gate G276gat
+# 64 gate G279gat
+# 65 gate G280gat
+# 66 gate G284gat
+# 67 gate G285gat
+# 68 gate G286gat
+# 69 gate G287gat
+# 70 gate G290gat
+# 71 gate G291gat
+# 72 gate G292gat
+# 73 gate G293gat
+# 74 gate G294gat
+# 75 gate G295gat
+# 76 gate G296gat
+# 77 gate G297gat
+# 78 gate G298gat
+# 79 gate G301gat
+# 80 gate G302gat
+# 81 gate G303gat
+# 82 gate G304gat
+# 83 gate G305gat
+# 84 gate G306gat
+# 85 gate G307gat
+# 86 gate G308gat
+# 87 gate G309gat
+# 88 gate G310gat
+# 89 gate G316gat
+# 90 gate G317gat
+# 91 gate G318gat
+# 92 gate G319gat
+# 93 gate G322gat
+# 94 gate G323gat
+# 95 gate G324gat
+# 96 gate G325gat
+# 97 gate G326gat
+# 98 gate G327gat
+# 99 gate G328gat
+# 100 gate G329gat
+# 101 gate G330gat
+# 102 gate G331gat
+# 103 gate G332gat
+# 104 gate G333gat
+# 105 gate G334gat
+# 106 gate G335gat
+# 107 gate G336gat
+# 108 gate G337gat
+# 109 gate G338gat
+# 110 gate G339gat
+# 111 gate G340gat
+# 112 gate G341gat
+# 113 gate G342gat
+# 114 gate G343gat
+# 115 gate G344gat
+# 116 gate G345gat
+# 117 gate G346gat
+# 118 gate G347gat
+# 119 gate G348gat
+# 120 gate G349gat
+# 121 gate G350gat
+# 122 gate G351gat
+# 123 gate G352gat
+# 124 gate G353gat
+# 125 gate G354gat
+# 126 gate G355gat
+# 127 gate G356gat
+# 128 gate G357gat
+# 129 gate G360gat
+# 130 gate G363gat
+# 131 gate G366gat
+# 132 gate G369gat
+# 133 gate G375gat
+# 134 gate G376gat
+# 135 gate G379gat
+# 136 gate G382gat
+# 137 gate G385gat
+# 138 output G388gat
+# 139 output G389gat
+# 140 output G390gat
+# 141 output G391gat
+# 142 gate G392gat
+# 143 gate G393gat
+# 144 gate G399gat
+# 145 gate G400gat
+# 146 gate G401gat
+# 147 gate G402gat
+# 148 gate G403gat
+# 149 gate G404gat
+# 150 gate G405gat
+# 151 gate G406gat
+# 152 gate G407gat
+# 153 gate G408gat
+# 154 gate G409gat
+# 155 gate G410gat
+# 156 gate G411gat
+# 157 gate G412gat
+# 158 gate G413gat
+# 159 gate G414gat
+# 160 gate G415gat
+# 161 gate G416gat
+# 162 gate G417gat
+# 163 output G418gat
+# 164 output G419gat
+# 165 output G420gat
+# 166 output G421gat
+# 167 output G422gat
+# 168 output G423gat
+# 169 gate G424gat
+# 170 gate G425gat
+# 171 gate G426gat
+# 172 gate G427gat
+# 173 gate G432gat
+# 174 gate G437gat
+# 175 gate G442gat
+# 176 gate G443gat
+# 177 gate G444gat
+# 178 gate G445gat
+# 179 output G446gat
+# 180 output G447gat
+# 181 output G448gat
+# 182 output G449gat
+# 183 output G450gat
+# 184 gate G451gat
+# 185 gate G460gat
+# 186 gate G463gat
+# 187 gate G466gat
+# 188 gate G475gat
+# 189 gate G476gat
+# 190 gate G477gat
+# 191 gate G478gat
+# 192 gate G479gat
+# 193 gate G480gat
+# 194 gate G481gat
+# 195 gate G482gat
+# 196 gate G483gat
+# 197 gate G488gat
+# 198 gate G489gat
+# 199 gate G490gat
+# 200 gate G491gat
+# 201 gate G492gat
+# 202 gate G495gat
+# 203 gate G498gat
+# 204 gate G499gat
+# 205 gate G500gat
+# 206 gate G501gat
+# 207 gate G502gat
+# 208 gate G503gat
+# 209 gate G504gat
+# 210 gate G505gat
+# 211 gate G506gat
+# 212 gate G507gat
+# 213 gate G508gat
+# 214 gate G509gat
+# 215 gate G510gat
+# 216 gate G511gat
+# 217 gate G512gat
+# 218 gate G513gat
+# 219 gate G514gat
+# 220 gate G515gat
+# 221 gate G516gat
+# 222 gate G517gat
+# 223 gate G518gat
+# 224 gate G519gat
+# 225 gate G520gat
+# 226 gate G521gat
+# 227 gate G522gat
+# 228 gate G523gat
+# 229 gate G524gat
+# 230 gate G525gat
+# 231 gate G526gat
+# 232 gate G527gat
+# 233 gate G528gat
+# 234 gate G529gat
+# 235 gate G530gat
+# 236 gate G533gat
+# 237 gate G536gat
+# 238 gate G537gat
+# 239 gate G538gat
+# 240 gate G539gat
+# 241 gate G540gat
+# 242 gate G541gat
+# 243 gate G542gat
+# 244 gate G543gat
+# 245 gate G544gat
+# 246 gate G547gat
+# 247 gate G550gat
+# 248 gate G551gat
+# 249 gate G552gat
+# 250 gate G553gat
+# 251 gate G557gat
+# 252 gate G561gat
+# 253 gate G565gat
+# 254 gate G569gat
+# 255 gate G573gat
+# 256 gate G577gat
+# 257 gate G581gat
+# 258 gate G585gat
+# 259 gate G586gat
+# 260 gate G587gat
+# 261 gate G588gat
+# 262 gate G589gat
+# 263 gate G590gat
+# 264 gate G593gat
+# 265 gate G596gat
+# 266 gate G597gat
+# 267 gate G600gat
+# 268 gate G605gat
+# 269 gate G606gat
+# 270 gate G609gat
+# 271 gate G615gat
+# 272 gate G616gat
+# 273 gate G619gat
+# 274 gate G624gat
+# 275 gate G625gat
+# 276 gate G628gat
+# 277 gate G631gat
+# 278 gate G632gat
+# 279 gate G635gat
+# 280 gate G640gat
+# 281 gate G641gat
+# 282 gate G644gat
+# 283 gate G650gat
+# 284 gate G651gat
+# 285 gate G654gat
+# 286 gate G659gat
+# 287 gate G660gat
+# 288 gate G661gat
+# 289 gate G662gat
+# 290 gate G665gat
+# 291 gate G669gat
+# 292 gate G670gat
+# 293 gate G673gat
+# 294 gate G677gat
+# 295 gate G678gat
+# 296 gate G682gat
+# 297 gate G686gat
+# 298 gate G687gat
+# 299 gate G692gat
+# 300 gate G696gat
+# 301 gate G697gat
+# 302 gate G700gat
+# 303 gate G704gat
+# 304 gate G705gat
+# 305 gate G708gat
+# 306 gate G712gat
+# 307 gate G713gat
+# 308 gate G717gat
+# 309 gate G721gat
+# 310 gate G722gat
+# 311 gate G727gat
+# 312 gate G731gat
+# 313 gate G732gat
+# 314 gate G733gat
+# 315 gate G734gat
+# 316 gate G735gat
+# 317 gate G736gat
+# 318 gate G737gat
+# 319 gate G738gat
+# 320 gate G739gat
+# 321 gate G740gat
+# 322 gate G741gat
+# 323 gate G742gat
+# 324 gate G743gat
+# 325 gate G744gat
+# 326 gate G745gat
+# 327 gate G746gat
+# 328 gate G747gat
+# 329 gate G748gat
+# 330 gate G749gat
+# 331 gate G750gat
+# 332 gate G751gat
+# 333 gate G752gat
+# 334 gate G753gat
+# 335 gate G754gat
+# 336 gate G755gat
+# 337 gate G756gat
+# 338 gate G757gat
+# 339 gate G758gat
+# 340 gate G759gat
+# 341 gate G760gat
+# 342 gate G761gat
+# 343 gate G762gat
+# 344 gate G763gat
+# 345 gate G764gat
+# 346 gate G765gat
+# 347 gate G766gat
+# 348 output G767gat
+# 349 output G768gat
+# 350 gate G769gat
+# 351 gate G770gat
+# 352 gate G771gat
+# 353 gate G772gat
+# 354 gate G773gat
+# 355 gate G777gat
+# 356 gate G778gat
+# 357 gate G781gat
+# 358 gate G782gat
+# 359 gate G785gat
+# 360 gate G786gat
+# 361 gate G787gat
+# 362 gate G788gat
+# 363 gate G789gat
+# 364 gate G790gat
+# 365 gate G791gat
+# 366 gate G792gat
+# 367 gate G793gat
+# 368 gate G794gat
+# 369 gate G795gat
+# 370 gate G796gat
+# 371 gate G802gat
+# 372 gate G803gat
+# 373 gate G804gat
+# 374 gate G805gat
+# 375 gate G806gat
+# 376 gate G807gat
+# 377 gate G808gat
+# 378 gate G809gat
+# 379 gate G810gat
+# 380 gate G811gat
+# 381 gate G812gat
+# 382 gate G813gat
+# 383 gate G814gat
+# 384 gate G815gat
+# 385 gate G819gat
+# 386 gate G822gat
+# 387 gate G825gat
+# 388 gate G826gat
+# 389 gate G827gat
+# 390 gate G828gat
+# 391 gate G829gat
+# 392 gate G830gat
+# 393 gate G831gat
+# 394 gate G832gat
+# 395 gate G833gat
+# 396 gate G834gat
+# 397 gate G835gat
+# 398 gate G836gat
+# 399 gate G837gat
+# 400 gate G838gat
+# 401 gate G839gat
+# 402 gate G840gat
+# 403 gate G841gat
+# 404 gate G842gat
+# 405 gate G843gat
+# 406 gate G844gat
+# 407 gate G845gat
+# 408 gate G846gat
+# 409 gate G847gat
+# 410 gate G848gat
+# 411 gate G849gat
+# 412 output G850gat
+# 413 gate G851gat
+# 414 gate G852gat
+# 415 gate G853gat
+# 416 gate G854gat
+# 417 gate G855gat
+# 418 gate G856gat
+# 419 gate G857gat
+# 420 gate G858gat
+# 421 gate G859gat
+# 422 gate G860gat
+# 423 gate G861gat
+# 424 gate G862gat
+# 425 output G863gat
+# 426 output G864gat
+# 427 output G865gat
+# 428 output G866gat
+# 429 gate G867gat
+# 430 gate G868gat
+# 431 gate G869gat
+# 432 gate G870gat
+# 433 gate G871gat
+# 434 gate G872gat
+# 435 gate G873gat
+# 436 output G874gat
+# 437 gate G875gat
+# 438 gate G876gat
+# 439 gate G877gat
+# 440 output G878gat
+# 441 output G879gat
+# 442 output G880gat

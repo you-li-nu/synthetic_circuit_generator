@@ -1,0 +1,389 @@
+#========num_cells num_nets
+196 189
+#========nets
+0 36 91
+1 37 54 173
+2 55 138
+3 38 93
+4 56 164
+5 39 57 174
+6 65 140
+7 40 95
+8 66 165
+9 41 58 175
+10 67 142
+11 42 97
+12 68 166
+13 43 59 176
+14 69 144
+15 44 98
+16 70 167
+17 45 60 177
+18 71 146
+19 46 99
+20 72 168
+21 47 61 178
+22 73 148
+23 48 100
+24 74 169
+25 49 62 179
+26 75 149
+27 50 101
+28 76 170
+29 51 63 180
+30 77 150
+31 52 102
+32 78 171
+33 53 64 181
+34 79 151
+35 80 172
+36 54
+37 55 56
+38 57
+39 65 66
+40 58
+41 67 68
+42 59
+43 69 70
+44 60
+45 71 72
+46 61
+47 73 74
+48 62
+49 75 76
+50 63
+51 77 78
+52 64
+53 79 80
+54 81 85
+55 103
+56 104
+57 81 86
+58 81 87
+59 81 88
+60 81 89
+61 81 90
+62 81 92
+63 81 94
+64 81 96
+65 105
+66 113
+67 106
+68 114
+69 107
+70 115
+71 108
+72 116
+73 109
+74 117
+75 110
+76 118
+77 111
+78 119
+79 112
+80 120
+81 82 83 84
+82 85 86 87 88 89 90 92 94 96
+83 91 93 95 97 98 99 100 101 102
+85 103 104
+86 105 113
+87 106 114
+88 107 115
+89 108 116
+90 109 117
+91 173
+92 110 118
+93 174
+94 111 119
+95 175
+96 112 120
+97 176
+98 177
+99 178
+100 179
+101 180
+102 181
+103 121 134
+104 122
+105 121 135
+106 121 136
+107 121 137
+108 121 139
+109 121 141
+110 121 143
+111 121 145
+112 121 147
+113 123
+114 124
+115 125
+116 126
+117 127
+118 128
+119 129
+120 130
+121 131 132 133
+122 152
+123 153
+124 154
+125 155
+126 156
+127 157
+128 158
+129 159
+130 160
+131 134 135 136 137 139 141 143 145 147
+132 138 140 142 144 146 148 149 150 151
+134 152
+135 153
+136 154
+137 155
+138 173
+139 156
+140 174
+141 157
+142 175
+143 158
+144 176
+145 159
+146 177
+147 160
+148 178
+149 179
+150 180
+151 181
+152 161
+153 161
+154 161
+155 161
+156 161
+157 161
+158 161
+159 161
+160 161
+161 162 163
+162 164 165 166 167 168 169 170 171 172
+164 173
+165 174
+166 175
+167 176
+168 177
+169 178
+170 179
+171 180
+172 181
+173 182
+174 183 193 194 195
+175 183 189 190 192 193 194
+176 183 184 190 191 192
+177 183 190 191 193
+178 183 185
+179 183 186 192
+180 183 187
+181 183
+182 188
+183 188
+184 189
+185 190
+186 191
+187 192
+189 193 195
+190 194 195
+191 194
+192 195
+#========symbols
+# 0 input G1gat
+# 1 input G4gat
+# 2 input G8gat
+# 3 input G11gat
+# 4 input G14gat
+# 5 input G17gat
+# 6 input G21gat
+# 7 input G24gat
+# 8 input G27gat
+# 9 input G30gat
+# 10 input G34gat
+# 11 input G37gat
+# 12 input G40gat
+# 13 input G43gat
+# 14 input G47gat
+# 15 input G50gat
+# 16 input G53gat
+# 17 input G56gat
+# 18 input G60gat
+# 19 input G63gat
+# 20 input G66gat
+# 21 input G69gat
+# 22 input G73gat
+# 23 input G76gat
+# 24 input G79gat
+# 25 input G82gat
+# 26 input G86gat
+# 27 input G89gat
+# 28 input G92gat
+# 29 input G95gat
+# 30 input G99gat
+# 31 input G102gat
+# 32 input G105gat
+# 33 input G108gat
+# 34 input G112gat
+# 35 input G115gat
+# 36 gate G118gat
+# 37 gate G119gat
+# 38 gate G122gat
+# 39 gate G123gat
+# 40 gate G126gat
+# 41 gate G127gat
+# 42 gate G130gat
+# 43 gate G131gat
+# 44 gate G134gat
+# 45 gate G135gat
+# 46 gate G138gat
+# 47 gate G139gat
+# 48 gate G142gat
+# 49 gate G143gat
+# 50 gate G146gat
+# 51 gate G147gat
+# 52 gate G150gat
+# 53 gate G151gat
+# 54 gate G154gat
+# 55 gate G157gat
+# 56 gate G158gat
+# 57 gate G159gat
+# 58 gate G162gat
+# 59 gate G165gat
+# 60 gate G168gat
+# 61 gate G171gat
+# 62 gate G174gat
+# 63 gate G177gat
+# 64 gate G180gat
+# 65 gate G183gat
+# 66 gate G184gat
+# 67 gate G185gat
+# 68 gate G186gat
+# 69 gate G187gat
+# 70 gate G188gat
+# 71 gate G189gat
+# 72 gate G190gat
+# 73 gate G191gat
+# 74 gate G192gat
+# 75 gate G193gat
+# 76 gate G194gat
+# 77 gate G195gat
+# 78 gate G196gat
+# 79 gate G197gat
+# 80 gate G198gat
+# 81 gate G199gat
+# 82 gate G203gat
+# 83 gate G213gat
+# 84 output G223gat
+# 85 gate G224gat
+# 86 gate G227gat
+# 87 gate G230gat
+# 88 gate G233gat
+# 89 gate G236gat
+# 90 gate G239gat
+# 91 gate G242gat
+# 92 gate G243gat
+# 93 gate G246gat
+# 94 gate G247gat
+# 95 gate G250gat
+# 96 gate G251gat
+# 97 gate G254gat
+# 98 gate G255gat
+# 99 gate G256gat
+# 100 gate G257gat
+# 101 gate G258gat
+# 102 gate G259gat
+# 103 gate G260gat
+# 104 gate G263gat
+# 105 gate G264gat
+# 106 gate G267gat
+# 107 gate G270gat
+# 108 gate G273gat
+# 109 gate G276gat
+# 110 gate G279gat
+# 111 gate G282gat
+# 112 gate G285gat
+# 113 gate G288gat
+# 114 gate G289gat
+# 115 gate G290gat
+# 116 gate G291gat
+# 117 gate G292gat
+# 118 gate G293gat
+# 119 gate G294gat
+# 120 gate G295gat
+# 121 gate G296gat
+# 122 gate G300gat
+# 123 gate G301gat
+# 124 gate G302gat
+# 125 gate G303gat
+# 126 gate G304gat
+# 127 gate G305gat
+# 128 gate G306gat
+# 129 gate G307gat
+# 130 gate G308gat
+# 131 gate G309gat
+# 132 gate G319gat
+# 133 output G329gat
+# 134 gate G330gat
+# 135 gate G331gat
+# 136 gate G332gat
+# 137 gate G333gat
+# 138 gate G334gat
+# 139 gate G335gat
+# 140 gate G336gat
+# 141 gate G337gat
+# 142 gate G338gat
+# 143 gate G339gat
+# 144 gate G340gat
+# 145 gate G341gat
+# 146 gate G342gat
+# 147 gate G343gat
+# 148 gate G344gat
+# 149 gate G345gat
+# 150 gate G346gat
+# 151 gate G347gat
+# 152 gate G348gat
+# 153 gate G349gat
+# 154 gate G350gat
+# 155 gate G351gat
+# 156 gate G352gat
+# 157 gate G353gat
+# 158 gate G354gat
+# 159 gate G355gat
+# 160 gate G356gat
+# 161 gate G357gat
+# 162 gate G360gat
+# 163 output G370gat
+# 164 gate G371gat
+# 165 gate G372gat
+# 166 gate G373gat
+# 167 gate G374gat
+# 168 gate G375gat
+# 169 gate G376gat
+# 170 gate G377gat
+# 171 gate G378gat
+# 172 gate G379gat
+# 173 gate G380gat
+# 174 gate G381gat
+# 175 gate G386gat
+# 176 gate G393gat
+# 177 gate G399gat
+# 178 gate G404gat
+# 179 gate G407gat
+# 180 gate G411gat
+# 181 gate G414gat
+# 182 gate G415gat
+# 183 gate G416gat
+# 184 gate G417gat
+# 185 gate G418gat
+# 186 gate G419gat
+# 187 gate G420gat
+# 188 output G421gat
+# 189 gate G422gat
+# 190 gate G425gat
+# 191 gate G428gat
+# 192 gate G429gat
+# 193 output G430gat
+# 194 output G431gat
+# 195 output G432gat
