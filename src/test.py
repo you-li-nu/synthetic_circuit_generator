@@ -5,6 +5,14 @@ from verilog import verilog_parser
 from netlist import Netlist
 from aig import Aig
 from mapping import tech_mapping
+from eval import Evaluator
+
+def test_construct_evaluator():
+    # eval = Evaluator('./playground/synth_50000_500.net', './playground/synth_50000_500.ans')
+    eval = Evaluator('./playground/c17.net', './playground/c17.ans')
+    print(eval.serialize())
+    print(eval.compute_total_wirelength())
+    print(eval.compute_maxcut())
 
 def test_gen_mapping():
     aig = Aig()
@@ -44,5 +52,5 @@ def test_bench_parser():
 
 
 if __name__ == '__main__':
-    test_gen_mapping()
+    test_construct_evaluator()
 

@@ -55,6 +55,16 @@ python3 ./src/main.py --function synth_nets --outfile ./playground/synth_20000_5
 python3 ./src/main.py --function synth_bench --outfile ./playground/synth_20000_500.bench --gate_limit 20000 --input_limit 500
 ```
 
+### Compute total wirelength for a 1-D placement
+```
+python3 ./src/main.py --function eval_wirelength --infile ./playground/c17.net --ansfile ./playground/c17.ans
+```
+
+### Compute maxcut for a 1-D placement
+```
+python3 ./src/main.py --function eval_maxcut --infile ./playground/c17.net --ansfile ./playground/c17.ans
+```
+
 ### Methodology
 You can ignore this part if you are a student on CE357.
 
